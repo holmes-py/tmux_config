@@ -9,9 +9,9 @@
 #### In my opinion it looks better.
 
 #### Installation:
-`git clone https://github.com/holmes-py/tmux_config.git`
-`cd tmux_config`
-`cp tmux.conf ~/.tmux.conf`
-`cp VPN.sh ~/VPN.sh`
+`git clone https://github.com/holmes-py/tmux_config.git` <br />
+`cd tmux_config`<br />
+`cp tmux.conf ~/.tmux.conf`<br />
+`cp VPN.sh ~/VPN.sh`<br />
 
 
