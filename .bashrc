@@ -166,13 +166,3 @@ _YELLOW=$(tput setaf 226)
 _DARK=$(tput setaf 230)
 
 export PS1="${_YELLOW}(\u) ${_DARK}(\h) ${_CYAN}(\w)${_YELLOW}\n🌍> ${_RESET}"
-
-# Alias definitions.
-if [ -f ~/Documents/Scripts/alias ]; then
-    . ~/Documents/Scripts/alias
-fi
-
-# Sourcing functions
-if [ -f ~/Documents/Scripts/bash_functions ]; then
-    . ~/Documents/Scripts/bash_functions
-fi
