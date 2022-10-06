@@ -13,5 +13,4 @@
 `cd tmux_config`<br />
 `cp tmux.conf ~/.tmux.conf`<br />
 `cp VPN.sh ~/VPN.sh`<br />
-
-
+`cp .bashrc ~/.bashrc`<br />
