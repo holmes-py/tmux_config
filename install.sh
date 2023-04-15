@@ -30,6 +30,7 @@ echo
 cp updatedtmux.conf ~/.tmux.conf
 mkdir -p ~/Scripts
 cp updated_vpnIP_VM.sh ~/Scripts/vpnIP_VM.sh
+chmod +x ~/Scripts/vpnIP_VM.sh
 
 tmux_plugin="adding tmux plugin..."
 for ((i=0; i<${#tmux_plugin}; i++)); do
