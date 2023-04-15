@@ -53,6 +53,6 @@ for ((i=0; i<${#exit_txt}; i++)); do
     # Wait for 0.5 seconds
     sleep 0.5
 done
-echo "open new terminal for the change for successfull installation."
+echo "open new terminal for the change."
 sleep 1
 exit

@@ -44,6 +44,13 @@ Refer to [tmux plugin manager](https://github.com/tmux-plugins/tpm) for more inf
 ### Updated Tmux and Vpn config Installation:
 
 ```bash
+git clone https://github.com/hoodietramp/tmux_config.git
+cd tmux_config
+chmod +x install.sh; ./install.sh
+```
+- OR 
+
+```bash
 sudo apt install xclip.sh
 git clone https://github.com/hoodietramp/tmux_config.git
 cd tmux_config
@@ -72,4 +79,4 @@ cd icons-in-terminal
 ```
 > Start new terminal, and `cd icons-in-terminal` directory and do:
 
-`./print_icons.sh` to verify successful install
+`./print_icons.sh` to verify successful installation
