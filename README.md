@@ -48,7 +48,7 @@ git clone https://github.com/hoodietramp/tmux_config.git
 cd tmux_config
 chmod +x install.sh; ./install.sh
 ```
-- OR 
+-- OR 
 
 ```bash
 sudo apt install xclip.sh
@@ -59,6 +59,12 @@ mkdir ~/Scripts
 cp updated_vpnIP_VM ~/Scripts/vpnIP_VM.sh
 cp -r tmux ~/.tmux
 ```
+
+### Screenshot: 
+
+![Screenshot](images/updated_tmux.png)
+
+---
 
 - For some icons to properly display in tmux, you might make an alias to tmux:
 ```bash
