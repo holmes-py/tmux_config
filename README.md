@@ -29,7 +29,6 @@ git clone https://github.com/hoodietramp/tmux_config.git
 cd tmux_config
 cp tmux.conf ~/.tmux.conf
 cp VPN.sh ~/vpnIP_VM.sh
-cp -r tmux ~/.tmux
 ```
 - To make the plugins work, you need to install tmux plugin manager.
 - To install tmux plugin manager, run the following command:
@@ -41,7 +40,9 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 Refer to [tmux plugin manager](https://github.com/tmux-plugins/tpm) for more information.
 
-### Updated Tmux and Vpn config Installation:
+---
+
+# Updated Tmux and Vpn config Installation:
 
 ```bash
 git clone https://github.com/hoodietramp/tmux_config.git
@@ -57,8 +58,10 @@ cd tmux_config
 cp updatedtmux.conf ~/.tmux.conf
 mkdir ~/Scripts
 cp updated_vpnIP_VM ~/Scripts/vpnIP_VM.sh
-cp -r tmux ~/.tmux
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
+
+- To install Tmux Plugins, Press `Prefix+I` in tmux.
 
 ### Screenshot: 
 

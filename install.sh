@@ -28,7 +28,15 @@ done
 cp updatedtmux.conf ~/.tmux.conf
 mkdir -p ~/Scripts
 cp updated_vpnIP_VM.sh ~/Scripts/vpnIP_VM.sh
-cp -r tmux ~/.tmux
+tmux_plugin="adding tmux plugin..."
+for ((i=0; i<${#tmux_plugin}; i++)); do
+    # Print the current digit
+    echo -n "${tmux_plugin:$i:1}"
+    # Wait for 0.5 seconds
+    sleep 0.5
+done
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+echo "Press Prefix+I to install the plugins"
 icons_install="[+] Installing icons in terminal..."
 for ((i=0; i<${#icons_install}; i++)); do
     # Print the current digit
