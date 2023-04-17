@@ -11,15 +11,6 @@ echo
 
 echo $pass | sudo -S apt install xclip
 
-clone_text="[+] Cloning the repo..."
-for ((i=0; i<${#clone_text}; i++)); do
-    echo -n "${clone_text:$i:1}"
-    sleep 0.07
-done
-echo
-
-git clone https://github.com/hoodietramp/tmux_config.git
-cd tmux_config
 setup="[+] Setting up tmux config..."
 for ((i=0; i<${#setup}; i++)); do
     echo -n "${setup:$i:1}"
