@@ -1,6 +1,5 @@
 #!/bin/bash
 
-read -p "enter your sudo password to continue: " pass
 requirements="[+] Downloading requirements..."
 
 for ((i=0; i<${#requirements}; i++)); do
@@ -9,7 +8,7 @@ for ((i=0; i<${#requirements}; i++)); do
 done
 echo
 
-echo $pass | sudo -S apt install xclip
+sudo apt install xclip
 
 setup="[+] Setting up tmux config..."
 for ((i=0; i<${#setup}; i++)); do
