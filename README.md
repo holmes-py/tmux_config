@@ -25,10 +25,11 @@ Default look with Tunnel and SSH scripts. Remove those if you think it's too mes
 - For clipboard to work, please install xclip as well.  
 ```bash 
 sudo apt install xclip
-git clone https://github.com/holmes-py/tmux_config.git
+git clone https://github.com/hoodietramp/tmux_config.git
 cd tmux_config
 cp tmux.conf ~/.tmux.conf
 cp VPN.sh ~/vpnIP_VM.sh
+chmod +x ~/vpnIP_VM.sh
 ```
 - To make the plugins work, you need to install tmux plugin manager.
 - To install tmux plugin manager, run the following command:
@@ -39,3 +40,54 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 .
 
 Refer to [tmux plugin manager](https://github.com/tmux-plugins/tpm) for more information.
+
+---
+
+# Updated Tmux and Vpn config Installation:
+
+```bash
+git clone https://github.com/hoodietramp/tmux_config.git
+cd tmux_config
+chmod +x install.sh; ./install.sh
+```
+-- OR 
+
+```bash
+sudo apt install xclip.sh
+git clone https://github.com/hoodietramp/tmux_config.git
+cd tmux_config
+cp updatedtmux.conf ~/.tmux.conf
+mkdir ~/Scripts
+cp updated_vpnIP_VM ~/Scripts/vpnIP_VM.sh
+chmod +x ~/Scripts/vpnIP_VM.sh
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+- To install Tmux Plugins, Press `Prefix+I` in tmux.
+
+### Screenshot: 
+
+![Screenshot](images/updated_tmux.png)
+
+---
+
+- For some icons to properly display in tmux, you might make an alias to tmux:
+```bash
+alias tmux='tmux -u'
+```
+> Don't forget to add this in your shell rc file.
+
+- If using arch, you can directly install icons-in-terminal
+
+```
+sudo pacman -Ss icons-in-terminal
+```
+- If using debian based, you need to clone and install icons-in-terminal from this repo:
+```bash
+git clone https://github.com/sebastiencs/icons-in-terminal.git
+cd icons-in-terminal
+./install.sh
+```
+> Start new terminal, and `cd icons-in-terminal` directory and do:
+
+`./print_icons.sh` to verify successful installation
