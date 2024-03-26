@@ -40,8 +40,8 @@ done
 echo
 
 cd ~/ ; git clone https://github.com/sebastiencs/icons-in-terminal.git
-cd icons-in-terminal;chmod +x install-autodetect.sh
-./install-autodetect.sh
+cd icons-in-terminal;chmod +x install.sh
+./install.sh
 
 setup_done="[-] D0ne!"
 for ((i=0; i<${#setup_done}; i++)); do
