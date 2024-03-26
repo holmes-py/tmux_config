@@ -56,9 +56,9 @@ chmod +x install.sh; ./install.sh
 sudo apt install xclip.sh
 git clone https://github.com/hoodietramp/tmux_config.git
 cd tmux_config
-cp updatedtmux.conf ~/.tmux.conf
+cp h00dy_tmux.conf ~/.tmux.conf
 mkdir ~/Scripts
-cp updated_vpnIP_VM ~/Scripts/vpnIP_VM.sh
+cp vpnIP_VM ~/Scripts/
 chmod +x ~/Scripts/vpnIP_VM.sh
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
